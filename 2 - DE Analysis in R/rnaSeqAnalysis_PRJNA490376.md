@@ -1,4 +1,4 @@
-Final Project Markdown
+RNA Seq Analysis of PRJNA490376
 ================
 Kieran Bissessar
 12/13/2019
