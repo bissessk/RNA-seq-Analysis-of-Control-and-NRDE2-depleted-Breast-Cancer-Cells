@@ -1,0 +1,9 @@
+# load modules
+module load picard/2.8.2
+
+java -jar "${PICARD_JAR}" NormalizeFasta \
+      I=Homo_sapiens.GRCh38.cdna.all.fa \
+      O=Homo_sapiens.GRCh38.cdna.all.normalized.fa
+
+# purge modules
+module purge

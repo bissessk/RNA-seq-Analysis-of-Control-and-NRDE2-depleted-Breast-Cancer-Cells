@@ -1,0 +1,12 @@
+/scratch/kb2784/final.proj/2_multiqc/SRR7819995_out_fastqc.zip
+/scratch/kb2784/final.proj/2_multiqc/SRR7819994_out_fastqc.zip
+/scratch/kb2784/final.proj/2_multiqc/SRR7819993_out_fastqc.zip
+/scratch/kb2784/final.proj/2_multiqc/SRR7819992_out_fastqc.zip
+/scratch/kb2784/final.proj/2_multiqc/SRR7819991_out_fastqc.zip
+/scratch/kb2784/final.proj/2_multiqc/SRR7819990_out_fastqc.zip
+
+multiqc data/scratch/kb2784/final.proj/2_multiqc/multiqc
+
+find "${PWD}" -name \*fastqc.zip > fastqc_files.txt
+
+multiqc --file-list fastqc_files.txt 

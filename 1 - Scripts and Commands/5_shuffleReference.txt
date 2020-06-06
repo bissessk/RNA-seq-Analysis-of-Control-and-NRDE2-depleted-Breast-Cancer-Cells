@@ -1,0 +1,7 @@
+module load bbmap/38.42
+
+shuffle.sh \
+	in=Homo_sapiens.GRCh38.cdna.all.normalized.fa \
+	out=Homo_sapiens.GRCh38.cdna.all.normalized.shuffled.fa
+
+module purge

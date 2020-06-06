@@ -1,0 +1,1 @@
+gunzip -c Homo_sapiens.GRCh38.cdna.all.fa.gz > Homo_sapiens.GRCh38.cdna.all.fa
